@@ -2,7 +2,7 @@ import { getServerSession } from "next-auth";
 import ClientComponent from "./(components)/ClientComp";
 
 export default async function Home() {
-  const session = await getServerSession(); // Pass authOptions to getServerSession
+  const session = await getServerSession();
 
   return (
     <div 
